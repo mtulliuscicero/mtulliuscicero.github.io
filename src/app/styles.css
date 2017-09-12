@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 body {
@@ -11,8 +11,6 @@ body {
   min-height: 100vh;
 }
 
-
-/* List */
 body {
   counter-reset: item;
 }

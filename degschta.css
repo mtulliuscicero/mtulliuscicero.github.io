@@ -1,0 +1,1 @@
+html{font-size:14px}body{font-family:'Playfair Display',serif;background-image:url(paper.jpg);display:flex;align-items:center;justify-content:center;min-height:100vh}body{counter-reset:item}ol{list-style:none}li{counter-increment:item}li:before{margin-right:1em;content:counter(item);font-weight:700;font-family:'PT Mono',monospace}.sans-serif{font-family:Arimo,sans-serif}

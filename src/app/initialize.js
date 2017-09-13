@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  ga();
+  //ga();
   tawkto();
 });
 

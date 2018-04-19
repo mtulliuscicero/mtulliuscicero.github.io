@@ -10,9 +10,6 @@ body{
   background-repeat:
     no-repeat, 
     repeat;
-  display:flex;
-  align-items:center;
-  justify-content:center;
   min-height:100vh}
 body{counter-reset:item;
 }

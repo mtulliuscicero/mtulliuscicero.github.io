@@ -17,7 +17,7 @@ body{
 body{counter-reset:item;
 }
 div{
-  width: 100%;
+  align: left top;
 }
 div.container{
   background-color:rgba(255,255,255,0.6);

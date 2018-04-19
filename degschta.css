@@ -5,8 +5,8 @@ body{
     url(Cicero.PNG),
     url(paper.jpg);
   background-position:
-    right bottom, 
-    left top;
+    bottom right, 
+    top left;
   background-repeat:
     no-repeat, 
     repeat;

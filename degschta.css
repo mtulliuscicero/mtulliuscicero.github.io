@@ -16,17 +16,17 @@ body{
   min-height:100vh}
 body{counter-reset:item;
 }
-.outer {
+div.outer {
   display: table;
   position: absolute;
   height: 100%;
   width: 100%;
 }
-.middle {
+div.middle {
   display: table-cell;
   vertical-align: middle;
 }
-.inner {
+div.inner {
   background-color:rgba(255,255,255,0.8);
   margin-left: auto;
   margin-right: auto;

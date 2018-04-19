@@ -1,6 +1,5 @@
 html{font-size:1.4rem}
 body{
-  text-align:center;
   font-family:'Playfair Display',serif;
   background-image:
     url(Cicero.PNG),
@@ -19,12 +18,10 @@ body{counter-reset:item;
 }
 #container{
   background-color:rgba(255,255,255,0.8);
-  position:relative;
-  margin: 0 auto;
+  position:absolute;
+  left: 50%;
+  top: 50%;
   text-align:center;
-}
-ol{
-  list-style:none
 }
 p{
   padding:20px;
@@ -32,16 +29,6 @@ p{
 }
 p.h1{
   padding:20px;size:2rem
-}
-li{
-  counter-increment:item;}
-li:before{
-  margin-right:1em;
-  content:counter(item);
-  font-weight:700;
-  font-family:
-    'PT Mono',
-    monospace
 }
 a:link{
   text-decoration:underline

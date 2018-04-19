@@ -10,7 +10,9 @@ body{
   background-repeat:
     no-repeat, 
     repeat;
-  min-height:100vh}
+  min-height:100vh;
+  display:flex;
+}
 body{counter-reset:item;
 }
 div.outer {
@@ -30,7 +32,7 @@ div.inner {
 }
 p{
   padding:20px;
-  text-align:justify;
+  text-align:left;
 }
 p.h1{
   padding:20px;size:2rem

@@ -16,13 +16,21 @@ body{
   min-height:100vh}
 body{counter-reset:item;
 }
-#container{
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
   background-color:rgba(255,255,255,0.8);
-  position:relative;
-  margin:auto;
-  text-align:center;
-  justify-content:center;
-  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 p{
   padding:20px;

@@ -24,7 +24,8 @@ body{counter-reset:item;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+       }
+}
 div.outer {
   display: table;
   position: absolute;

@@ -18,6 +18,13 @@ body{
 }
 body{counter-reset:item;
 }
+@media only screen and (max-width: 767px) {
+  body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 div.outer {
   display: table;
   position: absolute;

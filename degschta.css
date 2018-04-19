@@ -11,6 +11,7 @@ body{
     no-repeat, 
     repeat;
   background-attachment:
+    fixed,
     fixed;
   min-height:100vh;
   display:flex;
